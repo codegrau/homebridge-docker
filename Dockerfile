@@ -32,7 +32,8 @@ RUN npm install -g homebridge-ninjablock-humidity --unsafe-perm
 RUN npm install -g homebridge-ninjablock-alarmstatedevice --unsafe-perm
 RUN npm install -g homebridge-luxtronik2 --unsafe-perm
 #RUN npm install -g homebridge-mqttswitch --unsafe-perm
-#RUN npm install -g homebridge-edomoticz --unsafe-perm
+RUN npm install -g homebridge-edomoticz --unsafe-perm
+RUN npm install -g homebridge-legacy-plugins --unsafe-perm
 
 ##################################################
 # Start                                          #
